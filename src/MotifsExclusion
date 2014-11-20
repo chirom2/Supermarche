@@ -1,0 +1,20 @@
+-Chariot: 
+	Prise/Remise de chariot atomique
+	Blocage du client si aucun chariot
+-Rayon:
+	Prise/Rechargement atomique
+	Blocage des clients tant qu'ils ont pas le nombre de produits necessaire
+-Chef de rayon
+	Equivalent du camion (TP2)
+-Caisse
+	Le paiement est effectué lorsque le client a déposé l'ensemble de ses articles
+	et que l'employé de caisse à passé l'ensemble des articles.
+	
+	
+	
+Thread
+-Client 
+-Employe (Et donc chef de rayon)
+	
+	
+	
