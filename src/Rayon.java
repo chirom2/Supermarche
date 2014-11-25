@@ -23,7 +23,6 @@ public class Rayon {
 			try {
 				wait();//Si pas suffisament d'article, on attend
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}		
