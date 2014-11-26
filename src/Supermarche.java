@@ -43,7 +43,7 @@ public class Supermarche {
 	/**
 	 * NB_RAYON : nombre maximum de rayon dans le supermarche
 	 */
-	static final int NB_RAYON = 5;
+	static final int NB_RAYON = 4;
 	
 	/**
 	 * Nombre de client présent dans le supermarché
@@ -61,10 +61,7 @@ public class Supermarche {
 		// TODO Auto-generated method stub
 		FileChariots fileChariot = new FileChariots(NB_CHARIOTS);//Initialisation chariots
 		List<Rayon> listRayon = new ArrayList<Rayon>();
-		Tapis tapis = new Tapis(Supermarche.TAILLE_TAPIS);
-		Employe employe = new Employe(tapis);
 		
-		employe.start();
 		for(int i=0; i < NB_RAYON; i++){
 			listRayon.add(new Rayon(i, RAYON_STOCK_INIT));//Initialisation rayon
 		}		
@@ -72,7 +69,7 @@ public class Supermarche {
 		chefRayon.start();	
 		List<Client> clients = new ArrayList<Client>();
 		for (int i = 0; i < NB_CLIENT; i++) {
-			clients.add(new Client(i, fileChariot,listRayon, tapis));//Creation des clients
+			clients.add(new Client(i, fileChariot,listRayon));//Creation des clients
 			System.out.println(clients.get(i).getListeCourse().toString());
 			clients.get(i).start();
 		}
