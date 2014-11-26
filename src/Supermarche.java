@@ -65,11 +65,12 @@ public class Supermarche {
 		for(int i=0; i < NB_RAYON; i++){
 			listRayon.add(new Rayon(i, RAYON_STOCK_INIT));//Initialisation rayon
 		}		
+		Caisse caisse = new Caisse();
 		ChefRayon chefRayon = new ChefRayon(listRayon, NB_ELEM_PAR_CHGT);
 		chefRayon.start();	
 		List<Client> clients = new ArrayList<Client>();
 		for (int i = 0; i < NB_CLIENT; i++) {
-			clients.add(new Client(i, fileChariot,listRayon));//Creation des clients
+			clients.add(new Client(i, fileChariot,listRayon, caisse));//Creation des clients
 			System.out.println(clients.get(i).getListeCourse().toString());
 			clients.get(i).start();
 		}

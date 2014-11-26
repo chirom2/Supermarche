@@ -16,14 +16,18 @@ public class Client extends Thread {
 	 * Nombre d'article maximum sur la liste d'un client
 	 */
 
+	private Caisse caisse;
+
 	private FileChariots fileChariots;
 	private List<Rayon> listRayon;
 	private static final int NB_MAX_ART = 6;
 
-	public Client(int id, FileChariots fileChariots, List<Rayon> listRayon) {
+	public Client(int id, FileChariots fileChariots, List<Rayon> listRayon,
+			Caisse caisse) {
 		this.id = id;
 		this.fileChariots = fileChariots;
 		this.listRayon = listRayon;
+		this.caisse = caisse;
 		Random rand = new Random();
 		this.listeCourse = new HashMap<Integer, Integer>();
 		for (int i = 0; i < listRayon.size(); i++) {// Generation aleatoire
@@ -57,7 +61,8 @@ public class Client extends Thread {
 			List<Rayon> listRayon) {
 		int nbArt = 0;
 		for (int j = 0; j < listRayon.size(); j++) {
-			System.out.println("Client ID" + getIdClient() + " dans rayon " + j);
+			System.out
+					.println("Client ID" + getIdClient() + " dans rayon " + j);
 			nbArt = listeCourse.get(j);
 			Rayon rayon = listRayon.get(j);
 			System.out.println("Client " + id + " est dans le rayon"
@@ -74,6 +79,36 @@ public class Client extends Thread {
 	 * @param listeCourse
 	 */
 	private void passageEnCaisse() {
+		// Attendre que la caisse soit libre
+		Employe employe = caisse.passerEnCaisse();
+
+		// Depot des produits
+		for (int i = 0; i < listeCourse.size(); i++) {
+			int nbArti = listeCourse.get(i);
+			for (int j = 0; j < nbArti; j++) {
+				caisse.deposer(i);
+				try {
+					Thread.sleep(20);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		// Marqueur suivant
+		caisse.deposer(Caisse.MARQUEUR_CLIENT_SUIVANT);
+
+		// Attendre que l'employe ait fini de passer les produits
+		try {
+			employe.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+		// Effectuer le réglement
+		employe.effectuerReglement();
+
+		// Libérer la caisse pour le prochain client
+		caisse.liberer();
 	}
 
 	public int getIdClient() {
