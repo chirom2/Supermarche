@@ -1,0 +1,1175 @@
+Chef de rayon 
+Liste des courses du client 9 {0=6, 1=7, 2=10, 3=3}
+Liste des courses du client 10 {0=8, 1=7, 2=9, 3=6}
+Liste des courses du client 11 {0=3, 1=3, 2=11, 3=11}
+Liste des courses du client 12 {0=1, 1=8, 2=1, 3=5}
+Liste des courses du client 13 {0=9, 1=6, 2=9, 3=11}
+Client n3 part faire les courses.
+Prise Chariot
+Client n2 part faire les courses.
+Prise Chariot
+Client ID3 dans rayon 0
+Client ID2 dans rayon 0
+Client 3 est dans le rayon0. Il a 1 art a prendre
+Client 2 est dans le rayon0. Il a 3 art a prendre
+ Le client n3 est en train de: 
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 10)
+Fin prise Rayon n 0 (Nb article courant = 9)
+Client ID3 dans rayon 1
+Prendre article dans Rayon n 0 (Nb article courant = 9)
+Client 3 est dans le rayon1. Il a 8 art a prendre
+Fin prise Rayon n 0 (Nb article courant = 8)
+ Le client n3 est en train de: 
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 10)
+Prendre article dans Rayon n 0 (Nb article courant = 8)
+Fin prise Rayon n 1 (Nb article courant = 9)
+Fin prise Rayon n 0 (Nb article courant = 7)
+ Le client n3 est en train de: 
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 9)
+Prendre article dans Rayon n 0 (Nb article courant = 7)
+Fin prise Rayon n 1 (Nb article courant = 8)
+Fin prise Rayon n 0 (Nb article courant = 6)
+ Le client n3 est en train de: 
+Client ID2 dans rayon 1
+Prendre article dans Rayon n 1 (Nb article courant = 8)
+Client 2 est dans le rayon1. Il a 3 art a prendre
+Fin prise Rayon n 1 (Nb article courant = 7)
+ Le client n2 est en train de: 
+ Le client n3 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 7)
+Fin prise Rayon n 1 (Nb article courant = 6)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 6)
+Fin prise Rayon n 1 (Nb article courant = 5)
+ Le client n3 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 5)
+Fin prise Rayon n 1 (Nb article courant = 4)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 4)
+Fin prise Rayon n 1 (Nb article courant = 3)
+ Le client n3 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 3)
+Fin prise Rayon n 1 (Nb article courant = 2)
+Client ID2 dans rayon 2
+Prendre article dans Rayon n 1 (Nb article courant = 2)
+Fin prise Rayon n 1 (Nb article courant = 1)
+ Le client n3 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 1)
+Fin prise Rayon n 1 (Nb article courant = 0)
+ Le client n3 est en train de: 
+d'attendre dans rayon n1
+Client 2 est dans le rayon2. Il a 11 art a prendre
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 10)
+Fin prise Rayon n 2 (Nb article courant = 9)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 9)
+Fin prise Rayon n 2 (Nb article courant = 8)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 8)
+Fin prise Rayon n 2 (Nb article courant = 7)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 7)
+Fin prise Rayon n 2 (Nb article courant = 6)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 6)
+Fin prise Rayon n 2 (Nb article courant = 5)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 5)
+Fin prise Rayon n 2 (Nb article courant = 4)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 4)
+Fin prise Rayon n 2 (Nb article courant = 3)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 3)
+Fin prise Rayon n 2 (Nb article courant = 2)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 2)
+Fin prise Rayon n 2 (Nb article courant = 1)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 1)
+Fin prise Rayon n 2 (Nb article courant = 0)
+ Le client n2 est en train de: 
+d'attendre dans rayon n2
+Client n0 part faire les courses.
+Prise Chariot
+Client ID0 dans rayon 0
+Client 0 est dans le rayon0. Il a 6 art a prendre
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 6)
+Client n1 part faire les courses.
+Prise Chariot
+Client ID1 dans rayon 0
+Client 1 est dans le rayon0. Il a 8 art a prendre
+ Le client n1 est en train de: 
+Fin prise Rayon n 0 (Nb article courant = 5)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 5)
+Fin prise Rayon n 0 (Nb article courant = 4)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 4)
+Fin prise Rayon n 0 (Nb article courant = 3)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 3)
+Fin prise Rayon n 0 (Nb article courant = 2)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 2)
+Fin prise Rayon n 0 (Nb article courant = 1)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 1)
+Fin prise Rayon n 0 (Nb article courant = 0)
+ Le client n1 est en train de: 
+d'attendre dans rayon n0
+d'attendre dans rayon n0
+Client n4 part faire les courses.
+Prise Chariot
+Client ID4 dans rayon 0
+Client 4 est dans le rayon0. Il a 9 art a prendre
+ Le client n4 est en train de: 
+d'attendre dans rayon n0
+Chargement Chef rayon avant mise en rayon id 0= {0=5, 1=5, 2=5, 3=5}
+Mise article dans rayon n0 (Nb article courant = 0)
+Fin mise en rayon n0 (Nb article courant = 5)
+Prendre article dans Rayon n 0 (Nb article courant = 5)
+Fin prise Rayon n 0 (Nb article courant = 4)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 4)
+Fin prise Rayon n 0 (Nb article courant = 3)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 3)
+Fin prise Rayon n 0 (Nb article courant = 2)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 2)
+Fin prise Rayon n 0 (Nb article courant = 1)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 1)
+Fin prise Rayon n 0 (Nb article courant = 0)
+ Le client n4 est en train de: 
+d'attendre dans rayon n0
+d'attendre dans rayon n0
+d'attendre dans rayon n0
+Chargement Chef rayon avant mise en rayon id 1= {0=0, 1=5, 2=5, 3=5}
+Mise article dans rayon n1 (Nb article courant = 0)
+Fin mise en rayon n1 (Nb article courant = 5)
+Prendre article dans Rayon n 1 (Nb article courant = 5)
+Fin prise Rayon n 1 (Nb article courant = 4)
+Client ID3 dans rayon 2
+Client 3 est dans le rayon2. Il a 1 art a prendre
+ Le client n3 est en train de: 
+d'attendre dans rayon n2
+Chargement Chef rayon avant mise en rayon id 2= {0=0, 1=0, 2=5, 3=5}
+Mise article dans rayon n2 (Nb article courant = 0)
+Fin mise en rayon n2 (Nb article courant = 5)
+Prendre article dans Rayon n 2 (Nb article courant = 5)
+Fin prise Rayon n 2 (Nb article courant = 4)
+Client ID3 dans rayon 3
+Client 3 est dans le rayon3. Il a 5 art a prendre
+ Le client n3 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 10)
+Fin prise Rayon n 3 (Nb article courant = 9)
+ Le client n3 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 9)
+Fin prise Rayon n 3 (Nb article courant = 8)
+ Le client n3 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 8)
+Fin prise Rayon n 3 (Nb article courant = 7)
+ Le client n3 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 7)
+Fin prise Rayon n 3 (Nb article courant = 6)
+ Le client n3 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 6)
+Fin prise Rayon n 3 (Nb article courant = 5)
+CAISSE : Passage en caisse
+Prendre article dans Rayon n 2 (Nb article courant = 4)
+Fin prise Rayon n 2 (Nb article courant = 3)
+Client ID2 dans rayon 3
+Client 2 est dans le rayon3. Il a 11 art a prendre
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 5)
+Fin prise Rayon n 3 (Nb article courant = 4)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 4)
+Fin prise Rayon n 3 (Nb article courant = 3)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 3)
+Fin prise Rayon n 3 (Nb article courant = 2)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 2)
+Fin prise Rayon n 3 (Nb article courant = 1)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 1)
+Fin prise Rayon n 3 (Nb article courant = 0)
+ Le client n2 est en train de: 
+d'attendre dans rayon n3
+CLIENT 3 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+EMPLOYE : thread start
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 3 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 3 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CLIENT 3 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 3 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 3 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CLIENT 3 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 3 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 3 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CLIENT 3 : dépôt produit d'id 2
+CAISSE : Depot produit 2
+CAISSE : Prise produit 1
+passage produit 1
+Chargement Chef rayon avant mise en rayon id 3= {0=0, 1=0, 2=0, 3=5}
+Mise article dans rayon n3 (Nb article courant = 0)
+Fin mise en rayon n3 (Nb article courant = 5)
+Prendre article dans Rayon n 3 (Nb article courant = 5)
+Fin prise Rayon n 3 (Nb article courant = 4)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 4)
+Fin prise Rayon n 3 (Nb article courant = 3)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 3)
+Fin prise Rayon n 3 (Nb article courant = 2)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 2)
+Fin prise Rayon n 3 (Nb article courant = 1)
+ Le client n2 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 1)
+Fin prise Rayon n 3 (Nb article courant = 0)
+ Le client n2 est en train de: 
+d'attendre dans rayon n3
+CLIENT 3 : dépôt produit d'id 3
+CAISSE : Depot produit 3
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 3 : dépôt produit d'id 3
+CAISSE : Depot produit 3
+CLIENT 3 : dépôt produit d'id 3
+CAISSE : Depot produit 3
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 3 : dépôt produit d'id 3
+CAISSE : Depot produit 3
+CAISSE : Prise produit 2
+passage produit 2
+CLIENT 3 : dépôt produit d'id 3
+CAISSE : Depot produit 3
+CLIENT 3 : dépôt marqueur CLIENT_SUIVANT
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Depot produit -1
+CLIENT 3 : attente de l'employé
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit -1
+EMPLOYE : thread stop
+CLIENT 3 : synchronisation avec employé OK
+EMPLOYE : paiement effectué
+CLIENT 3 : paiement effectué
+CAISSE : Libération de la caisse
+CLIENT 3 : caisse libérée
+Remise chariot
+Client n3 a termier ses courses.
+Chargement Chef rayon avant mise en rayon id 0= {0=5, 1=5, 2=5, 3=5}
+Mise article dans rayon n0 (Nb article courant = 0)
+Fin mise en rayon n0 (Nb article courant = 5)
+Prendre article dans Rayon n 0 (Nb article courant = 5)
+Fin prise Rayon n 0 (Nb article courant = 4)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 4)
+Fin prise Rayon n 0 (Nb article courant = 3)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 3)
+Fin prise Rayon n 0 (Nb article courant = 2)
+Prendre article dans Rayon n 0 (Nb article courant = 2)
+Fin prise Rayon n 0 (Nb article courant = 1)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 1)
+Fin prise Rayon n 0 (Nb article courant = 0)
+ Le client n0 est en train de: 
+d'attendre dans rayon n0
+ Le client n4 est en train de: 
+d'attendre dans rayon n0
+d'attendre dans rayon n0
+Chargement Chef rayon avant mise en rayon id 1= {0=0, 1=5, 2=5, 3=5}
+Mise article dans rayon n1 (Nb article courant = 4)
+Fin mise en rayon n1 (Nb article courant = 9)
+Chargement Chef rayon avant mise en rayon id 2= {0=0, 1=0, 2=5, 3=5}
+Mise article dans rayon n2 (Nb article courant = 3)
+Fin mise en rayon n2 (Nb article courant = 8)
+Chargement Chef rayon avant mise en rayon id 3= {0=0, 1=0, 2=0, 3=5}
+Mise article dans rayon n3 (Nb article courant = 0)
+Fin mise en rayon n3 (Nb article courant = 5)
+Prendre article dans Rayon n 3 (Nb article courant = 5)
+Fin prise Rayon n 3 (Nb article courant = 4)
+CAISSE : Passage en caisse
+CLIENT 2 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+EMPLOYE : thread start
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 2 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 2 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CLIENT 2 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 2 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 2 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CLIENT 2 : dépôt produit d'id 2
+CAISSE : Depot produit 2
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 2 : dépôt produit d'id 2
+CAISSE : Depot produit 2
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 2 : dépôt produit d'id 2
+CAISSE : Depot produit 2
+CLIENT 2 : dépôt produit d'id 2
+CAISSE : Depot produit 2
+CAISSE : Prise produit 2
+passage produit 2
+CLIENT 2 : dépôt produit d'id 2
+CAISSE : Depot produit 2
+CAISSE : Prise produit 2
+passage produit 2
+CLIENT 2 : dépôt produit d'id 2
+CAISSE : Depot produit 2
+CLIENT 2 : dépôt produit d'id 2
+CAISSE : Depot produit 2
+CAISSE : Prise produit 2
+passage produit 2
+CLIENT 2 : dépôt produit d'id 2
+CAISSE : Depot produit 2
+CAISSE : Prise produit 2
+passage produit 2
+CLIENT 2 : dépôt produit d'id 2
+CAISSE : Depot produit 2
+CLIENT 2 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 2
+CLIENT 2 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 2
+CLIENT 2 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 3
+CLIENT 2 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 3
+CLIENT 2 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 3
+CLIENT 2 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+CAISSE : Depot produit 3
+passage produit 2
+CLIENT 2 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 3
+CLIENT 2 : dépôt produit d'id 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Depot produit 3
+CLIENT 2 : dépôt produit d'id 3
+CAISSE : Prise produit 3
+CAISSE : Depot produit 3
+passage produit 3
+CLIENT 2 : dépôt produit d'id 3
+CAISSE : Prise produit 3
+CAISSE : Depot produit 3
+passage produit 3
+CLIENT 2 : dépôt produit d'id 3
+CAISSE : Prise produit 3
+CAISSE : Depot produit 3
+passage produit 3
+CLIENT 2 : dépôt produit d'id 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Depot produit 3
+CLIENT 2 : dépôt produit d'id 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Depot produit 3
+CLIENT 2 : dépôt marqueur CLIENT_SUIVANT
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Depot produit -1
+CLIENT 2 : attente de l'employé
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit -1
+EMPLOYE : thread stop
+CLIENT 2 : synchronisation avec employé OK
+EMPLOYE : paiement effectué
+CLIENT 2 : paiement effectué
+CAISSE : Libération de la caisse
+CLIENT 2 : caisse libérée
+Remise chariot
+Client n2 a termier ses courses.
+Chargement Chef rayon avant mise en rayon id 0= {0=5, 1=5, 2=5, 3=5}
+Mise article dans rayon n0 (Nb article courant = 0)
+Fin mise en rayon n0 (Nb article courant = 5)
+Prendre article dans Rayon n 0 (Nb article courant = 5)
+Fin prise Rayon n 0 (Nb article courant = 4)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 4)
+Fin prise Rayon n 0 (Nb article courant = 3)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 3)
+Fin prise Rayon n 0 (Nb article courant = 2)
+Client ID1 dans rayon 1
+Client 1 est dans le rayon1. Il a 7 art a prendre
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 9)
+Fin prise Rayon n 1 (Nb article courant = 8)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 8)
+Fin prise Rayon n 1 (Nb article courant = 7)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 7)
+Fin prise Rayon n 1 (Nb article courant = 6)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 6)
+Fin prise Rayon n 1 (Nb article courant = 5)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 5)
+Fin prise Rayon n 1 (Nb article courant = 4)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 4)
+Fin prise Rayon n 1 (Nb article courant = 3)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 3)
+Fin prise Rayon n 1 (Nb article courant = 2)
+Client ID1 dans rayon 2
+Client 1 est dans le rayon2. Il a 9 art a prendre
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 8)
+Fin prise Rayon n 2 (Nb article courant = 7)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 7)
+Fin prise Rayon n 2 (Nb article courant = 6)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 6)
+Fin prise Rayon n 2 (Nb article courant = 5)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 5)
+Fin prise Rayon n 2 (Nb article courant = 4)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 4)
+Fin prise Rayon n 2 (Nb article courant = 3)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 3)
+Fin prise Rayon n 2 (Nb article courant = 2)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 2)
+Fin prise Rayon n 2 (Nb article courant = 1)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 1)
+Fin prise Rayon n 2 (Nb article courant = 0)
+ Le client n1 est en train de: 
+d'attendre dans rayon n2
+Prendre article dans Rayon n 0 (Nb article courant = 2)
+Fin prise Rayon n 0 (Nb article courant = 1)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 0 (Nb article courant = 1)
+Fin prise Rayon n 0 (Nb article courant = 0)
+ Le client n4 est en train de: 
+d'attendre dans rayon n0
+d'attendre dans rayon n0
+Chargement Chef rayon avant mise en rayon id 1= {0=0, 1=5, 2=5, 3=5}
+Mise article dans rayon n1 (Nb article courant = 2)
+Fin mise en rayon n1 (Nb article courant = 7)
+Chargement Chef rayon avant mise en rayon id 2= {0=0, 1=0, 2=5, 3=5}
+Mise article dans rayon n2 (Nb article courant = 0)
+Fin mise en rayon n2 (Nb article courant = 5)
+Prendre article dans Rayon n 2 (Nb article courant = 5)
+Fin prise Rayon n 2 (Nb article courant = 4)
+Client ID1 dans rayon 3
+Client 1 est dans le rayon3. Il a 6 art a prendre
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 4)
+Fin prise Rayon n 3 (Nb article courant = 3)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 3)
+Fin prise Rayon n 3 (Nb article courant = 2)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 2)
+Fin prise Rayon n 3 (Nb article courant = 1)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 1)
+Fin prise Rayon n 3 (Nb article courant = 0)
+ Le client n1 est en train de: 
+d'attendre dans rayon n3
+Chargement Chef rayon avant mise en rayon id 3= {0=0, 1=0, 2=0, 3=5}
+Mise article dans rayon n3 (Nb article courant = 0)
+Fin mise en rayon n3 (Nb article courant = 5)
+Prendre article dans Rayon n 3 (Nb article courant = 5)
+Fin prise Rayon n 3 (Nb article courant = 4)
+ Le client n1 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 4)
+Fin prise Rayon n 3 (Nb article courant = 3)
+CAISSE : Passage en caisse
+CLIENT 1 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+EMPLOYE : thread start
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 1 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 1 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CLIENT 1 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 1 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 1 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CLIENT 1 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 1 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 1 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 1 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CLIENT 1 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 1 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CLIENT 1 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 1 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 1 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CLIENT 1 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+passage produit 1
+CAISSE : Depot produit 2
+CLIENT 1 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+passage produit 1
+CAISSE : Depot produit 2
+CLIENT 1 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+CAISSE : Depot produit 2
+passage produit 1
+CLIENT 1 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+CAISSE : Depot produit 2
+passage produit 1
+CLIENT 1 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+passage produit 1
+CAISSE : Depot produit 2
+CLIENT 1 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+CAISSE : Depot produit 2
+passage produit 2
+CLIENT 1 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+CAISSE : Depot produit 2
+passage produit 2
+CLIENT 1 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 2
+CLIENT 1 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 2
+CLIENT 1 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 3
+CLIENT 1 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+CAISSE : Depot produit 3
+passage produit 2
+CLIENT 1 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+CAISSE : Depot produit 3
+passage produit 2
+CLIENT 1 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 3
+CLIENT 1 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 3
+CLIENT 1 : dépôt produit d'id 3
+CAISSE : Prise produit 3
+CAISSE : Depot produit 3
+passage produit 3
+CLIENT 1 : dépôt marqueur CLIENT_SUIVANT
+CAISSE : Prise produit 3
+CAISSE : Depot produit -1
+CLIENT 1 : attente de l'employé
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+Chargement Chef rayon avant mise en rayon id 0= {0=5, 1=5, 2=5, 3=5}
+Mise article dans rayon n0 (Nb article courant = 0)
+Fin mise en rayon n0 (Nb article courant = 5)
+Prendre article dans Rayon n 0 (Nb article courant = 5)
+Fin prise Rayon n 0 (Nb article courant = 4)
+Client ID0 dans rayon 1
+Client 0 est dans le rayon1. Il a 7 art a prendre
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 7)
+Fin prise Rayon n 1 (Nb article courant = 6)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 6)
+Fin prise Rayon n 1 (Nb article courant = 5)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 5)
+Fin prise Rayon n 1 (Nb article courant = 4)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 4)
+Fin prise Rayon n 1 (Nb article courant = 3)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 3)
+Fin prise Rayon n 1 (Nb article courant = 2)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 2)
+Fin prise Rayon n 1 (Nb article courant = 1)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 1)
+Fin prise Rayon n 1 (Nb article courant = 0)
+Client ID0 dans rayon 2
+Client 0 est dans le rayon2. Il a 10 art a prendre
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 4)
+Fin prise Rayon n 2 (Nb article courant = 3)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 3)
+Fin prise Rayon n 2 (Nb article courant = 2)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 2)
+Fin prise Rayon n 2 (Nb article courant = 1)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 1)
+Fin prise Rayon n 2 (Nb article courant = 0)
+ Le client n0 est en train de: 
+d'attendre dans rayon n2
+Prendre article dans Rayon n 0 (Nb article courant = 4)
+Fin prise Rayon n 0 (Nb article courant = 3)
+Client ID4 dans rayon 1
+Client 4 est dans le rayon1. Il a 6 art a prendre
+ Le client n4 est en train de: 
+d'attendre dans rayon n1
+CAISSE : Prise produit -1
+EMPLOYE : thread stop
+CLIENT 1 : synchronisation avec employé OK
+EMPLOYE : paiement effectué
+CLIENT 1 : paiement effectué
+CAISSE : Libération de la caisse
+CLIENT 1 : caisse libérée
+Remise chariot
+Client n1 a termier ses courses.
+Chargement Chef rayon avant mise en rayon id 1= {0=0, 1=5, 2=5, 3=5}
+Mise article dans rayon n1 (Nb article courant = 0)
+Fin mise en rayon n1 (Nb article courant = 5)
+Prendre article dans Rayon n 1 (Nb article courant = 5)
+Fin prise Rayon n 1 (Nb article courant = 4)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 4)
+Fin prise Rayon n 1 (Nb article courant = 3)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 3)
+Fin prise Rayon n 1 (Nb article courant = 2)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 2)
+Fin prise Rayon n 1 (Nb article courant = 1)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 1 (Nb article courant = 1)
+Fin prise Rayon n 1 (Nb article courant = 0)
+ Le client n4 est en train de: 
+d'attendre dans rayon n1
+Chargement Chef rayon avant mise en rayon id 2= {0=0, 1=0, 2=5, 3=5}
+Mise article dans rayon n2 (Nb article courant = 0)
+Fin mise en rayon n2 (Nb article courant = 5)
+Prendre article dans Rayon n 2 (Nb article courant = 5)
+Fin prise Rayon n 2 (Nb article courant = 4)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 4)
+Fin prise Rayon n 2 (Nb article courant = 3)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 3)
+Fin prise Rayon n 2 (Nb article courant = 2)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 2)
+Fin prise Rayon n 2 (Nb article courant = 1)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 1)
+Fin prise Rayon n 2 (Nb article courant = 0)
+ Le client n0 est en train de: 
+d'attendre dans rayon n2
+Chargement Chef rayon avant mise en rayon id 3= {0=0, 1=0, 2=0, 3=5}
+Mise article dans rayon n3 (Nb article courant = 3)
+Fin mise en rayon n3 (Nb article courant = 8)
+Chargement Chef rayon avant mise en rayon id 0= {0=5, 1=5, 2=5, 3=5}
+Mise article dans rayon n0 (Nb article courant = 3)
+Fin mise en rayon n0 (Nb article courant = 8)
+Chargement Chef rayon avant mise en rayon id 1= {0=0, 1=5, 2=5, 3=5}
+Mise article dans rayon n1 (Nb article courant = 0)
+Fin mise en rayon n1 (Nb article courant = 5)
+Prendre article dans Rayon n 1 (Nb article courant = 5)
+Fin prise Rayon n 1 (Nb article courant = 4)
+Client ID4 dans rayon 2
+Client 4 est dans le rayon2. Il a 9 art a prendre
+ Le client n4 est en train de: 
+d'attendre dans rayon n2
+Chargement Chef rayon avant mise en rayon id 2= {0=0, 1=0, 2=5, 3=5}
+Mise article dans rayon n2 (Nb article courant = 0)
+Fin mise en rayon n2 (Nb article courant = 5)
+Prendre article dans Rayon n 2 (Nb article courant = 5)
+Fin prise Rayon n 2 (Nb article courant = 4)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 4)
+Fin prise Rayon n 2 (Nb article courant = 3)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 3)
+Fin prise Rayon n 2 (Nb article courant = 2)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 2)
+Fin prise Rayon n 2 (Nb article courant = 1)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 1)
+Fin prise Rayon n 2 (Nb article courant = 0)
+ Le client n4 est en train de: 
+d'attendre dans rayon n2
+d'attendre dans rayon n2
+Chargement Chef rayon avant mise en rayon id 3= {0=0, 1=0, 2=0, 3=5}
+Mise article dans rayon n3 (Nb article courant = 8)
+Fin mise en rayon n3 (Nb article courant = 10)
+Chargement Chef rayon avant mise en rayon id 0= {0=5, 1=5, 2=5, 3=5}
+Mise article dans rayon n0 (Nb article courant = 8)
+Fin mise en rayon n0 (Nb article courant = 10)
+Chargement Chef rayon avant mise en rayon id 1= {0=3, 1=5, 2=5, 3=5}
+Mise article dans rayon n1 (Nb article courant = 4)
+Fin mise en rayon n1 (Nb article courant = 9)
+Chargement Chef rayon avant mise en rayon id 2= {0=3, 1=0, 2=5, 3=5}
+Mise article dans rayon n2 (Nb article courant = 0)
+Fin mise en rayon n2 (Nb article courant = 5)
+Prendre article dans Rayon n 2 (Nb article courant = 5)
+Fin prise Rayon n 2 (Nb article courant = 4)
+Client ID0 dans rayon 3
+Client 0 est dans le rayon3. Il a 3 art a prendre
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 10)
+Fin prise Rayon n 3 (Nb article courant = 9)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 9)
+Fin prise Rayon n 3 (Nb article courant = 8)
+ Le client n0 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 8)
+Fin prise Rayon n 3 (Nb article courant = 7)
+CAISSE : Passage en caisse
+Prendre article dans Rayon n 2 (Nb article courant = 4)
+Fin prise Rayon n 2 (Nb article courant = 3)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 3)
+Fin prise Rayon n 2 (Nb article courant = 2)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 2)
+Fin prise Rayon n 2 (Nb article courant = 1)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 2 (Nb article courant = 1)
+CLIENT 0 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+Fin prise Rayon n 2 (Nb article courant = 0)
+Client ID4 dans rayon 3
+Client 4 est dans le rayon3. Il a 11 art a prendre
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 7)
+Fin prise Rayon n 3 (Nb article courant = 6)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 6)
+Fin prise Rayon n 3 (Nb article courant = 5)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 5)
+Fin prise Rayon n 3 (Nb article courant = 4)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 4)
+Fin prise Rayon n 3 (Nb article courant = 3)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 3)
+Fin prise Rayon n 3 (Nb article courant = 2)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 2)
+Fin prise Rayon n 3 (Nb article courant = 1)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 1)
+Fin prise Rayon n 3 (Nb article courant = 0)
+ Le client n4 est en train de: 
+d'attendre dans rayon n3
+EMPLOYE : thread start
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 0 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 0 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CLIENT 0 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 0 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 0 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CLIENT 0 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 0 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 0 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CLIENT 0 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 0 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+Chargement Chef rayon avant mise en rayon id 3= {0=3, 1=0, 2=0, 3=5}
+Mise article dans rayon n3 (Nb article courant = 0)
+Fin mise en rayon n3 (Nb article courant = 5)
+Prendre article dans Rayon n 3 (Nb article courant = 5)
+Fin prise Rayon n 3 (Nb article courant = 4)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 4)
+Fin prise Rayon n 3 (Nb article courant = 3)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 3)
+Fin prise Rayon n 3 (Nb article courant = 2)
+ Le client n4 est en train de: 
+Prendre article dans Rayon n 3 (Nb article courant = 2)
+Fin prise Rayon n 3 (Nb article courant = 1)
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 0 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CLIENT 0 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 0 : dépôt produit d'id 2
+CAISSE : Depot produit 2
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 0 : dépôt produit d'id 2
+CAISSE : Depot produit 2
+CLIENT 0 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+passage produit 1
+CAISSE : Depot produit 2
+CLIENT 0 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+passage produit 1
+CAISSE : Depot produit 2
+CLIENT 0 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+passage produit 1
+CAISSE : Depot produit 2
+CLIENT 0 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+CAISSE : Depot produit 2
+passage produit 2
+CLIENT 0 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+CAISSE : Depot produit 2
+passage produit 2
+CLIENT 0 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+CAISSE : Depot produit 2
+passage produit 2
+CLIENT 0 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+CAISSE : Depot produit 2
+passage produit 2
+CLIENT 0 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+CAISSE : Depot produit 2
+passage produit 2
+CLIENT 0 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 3
+CLIENT 0 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+CAISSE : Depot produit 3
+passage produit 2
+CLIENT 0 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+CAISSE : Depot produit 3
+passage produit 2
+CLIENT 0 : dépôt marqueur CLIENT_SUIVANT
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit -1
+CLIENT 0 : attente de l'employé
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit -1
+EMPLOYE : thread stop
+CLIENT 0 : synchronisation avec employé OK
+EMPLOYE : paiement effectué
+CLIENT 0 : paiement effectué
+CAISSE : Libération de la caisse
+CLIENT 0 : caisse libérée
+Remise chariot
+Client n0 a termier ses courses.
+CAISSE : Passage en caisse
+CLIENT 4 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+EMPLOYE : thread start
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 4 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 4 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 4 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CLIENT 4 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 4 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CLIENT 4 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 4 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 4 : dépôt produit d'id 0
+CAISSE : Depot produit 0
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 4 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CLIENT 4 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 4 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CLIENT 4 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 0
+passage produit 0
+CLIENT 4 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CAISSE : Prise produit 1
+passage produit 1
+CLIENT 4 : dépôt produit d'id 1
+CAISSE : Depot produit 1
+CLIENT 4 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+passage produit 1
+CAISSE : Depot produit 2
+Chargement Chef rayon avant mise en rayon id 0= {0=5, 1=5, 2=5, 3=5}
+Mise article dans rayon n0 (Nb article courant = 10)
+Fin mise en rayon n0 (Nb article courant = 10)
+CLIENT 4 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+passage produit 1
+CAISSE : Depot produit 2
+CLIENT 4 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+CAISSE : Depot produit 2
+passage produit 1
+CLIENT 4 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+CAISSE : Depot produit 2
+passage produit 1
+CLIENT 4 : dépôt produit d'id 2
+CAISSE : Prise produit 1
+CAISSE : Depot produit 2
+passage produit 1
+CLIENT 4 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 2
+CLIENT 4 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+CAISSE : Depot produit 2
+passage produit 2
+CLIENT 4 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+CAISSE : Depot produit 2
+passage produit 2
+Chargement Chef rayon avant mise en rayon id 1= {0=5, 1=5, 2=5, 3=5}
+Mise article dans rayon n1 (Nb article courant = 9)
+Fin mise en rayon n1 (Nb article courant = 10)
+CLIENT 4 : dépôt produit d'id 2
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 2
+CLIENT 4 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 3
+CLIENT 4 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+CAISSE : Depot produit 3
+passage produit 2
+CLIENT 4 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+CAISSE : Depot produit 3
+passage produit 2
+CLIENT 4 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 3
+CLIENT 4 : dépôt produit d'id 3
+CAISSE : Prise produit 2
+passage produit 2
+CAISSE : Depot produit 3
+CLIENT 4 : dépôt produit d'id 3
+Chargement Chef rayon avant mise en rayon id 2= {0=5, 1=4, 2=5, 3=5}
+Mise article dans rayon n2 (Nb article courant = 0)
+Fin mise en rayon n2 (Nb article courant = 5)
+CAISSE : Prise produit 3
+CAISSE : Depot produit 3
+passage produit 3
+CLIENT 4 : dépôt produit d'id 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Depot produit 3
+CLIENT 4 : dépôt produit d'id 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Depot produit 3
+CLIENT 4 : dépôt produit d'id 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Depot produit 3
+CLIENT 4 : dépôt produit d'id 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Depot produit 3
+CLIENT 4 : dépôt produit d'id 3
+CAISSE : Prise produit 3
+CAISSE : Depot produit 3
+passage produit 3
+CLIENT 4 : dépôt marqueur CLIENT_SUIVANT
+CAISSE : Prise produit 3
+CAISSE : Depot produit -1
+CLIENT 4 : attente de l'employé
+passage produit 3
+Chargement Chef rayon avant mise en rayon id 3= {0=5, 1=4, 2=0, 3=5}
+Mise article dans rayon n3 (Nb article courant = 1)
+Fin mise en rayon n3 (Nb article courant = 6)
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit 3
+passage produit 3
+CAISSE : Prise produit -1
+EMPLOYE : thread stop
+CLIENT 4 : synchronisation avec employé OK
+EMPLOYE : paiement effectué
+CLIENT 4 : paiement effectué
+CAISSE : Libération de la caisse
+CLIENT 4 : caisse libérée
+Remise chariot
+Client n4 a termier ses courses.
+Nombre chariot final8

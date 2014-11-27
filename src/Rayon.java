@@ -1,6 +1,6 @@
 public class Rayon {
 
-	private int id;// Diff�rencie le type d'article stock� dans le rayon
+	private int id;// Différencie le type d'article stocke dans le rayon
 					// (SUCRE, FARINE,...)
 	private int nbCurrent;
 	private int nbMaxArticle;
@@ -16,15 +16,17 @@ public class Rayon {
 	 * Prise d'un des article du rayon
 	 */
 	public synchronized void priseArticle() {
-		System.out.println("Prise article dans Rayon n " + id
-				+ " (Nb article courant = " + nbCurrent + ")");
+
 		while (nbCurrent <= 0) {
 			try {
+				System.out.println("d'attendre dans rayon n" + id);
 				wait();// Si pas suffisament d'article, on attend
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
+		System.out.println("Prendre article dans Rayon n " + id
+				+ " (Nb article courant = " + nbCurrent + ")");
 		nbCurrent--;
 		notifyAll();
 		System.out.println("Fin prise Rayon n " + id
@@ -54,6 +56,10 @@ public class Rayon {
 		return etatChg;
 	}
 
+	/**
+	 * 
+	 * @return nombre d'article courant dans le rayon
+	 */
 	public int getNbCurrent() {
 		return nbCurrent;
 	}

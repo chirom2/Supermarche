@@ -3,14 +3,23 @@ import java.util.List;
 import java.util.ListIterator;
 
 public class ChefRayon extends Thread {
+	/**
+	 * Nombre de rayon à la charge du chef de rayon
+	 */
+	List<Rayon> listRayons;
 
-	List<Rayon> listRayons;// Nombre de rayon à la charge du chef de rayon
 	/**
 	 * chargement du chef de rayon: <N rayon, nb article>
 	 */
 	private HashMap<Integer, Integer> chgt;
-	int etatChgt;// chargement courant du chef de rayon
-	int MaxChgt;// Chargement maximum supporté par le che f de rayon
+	/**
+	 * chargement courant du chef de rayon
+	 */
+	int etatChgt;
+	/**
+	 * Chargement maximum supporté par le che f de rayon
+	 */
+	int MaxChgt;
 
 	public ChefRayon(List<Rayon> listRayon, int MaxChgt) {
 		this.listRayons = listRayon;
@@ -19,6 +28,11 @@ public class ChefRayon extends Thread {
 		this.setDaemon(true);
 	}
 
+	/**
+	 * Recharge le contenu du chariot du chef de rayon
+	 * 
+	 * @return chargement
+	 */
 	private HashMap<Integer, Integer> faireChargement() {
 		for (int i = 0; i < listRayons.size(); i++) {
 			chgt.put(i, MaxChgt);
@@ -33,7 +47,6 @@ public class ChefRayon extends Thread {
 			attendre(500);// temps de chargement
 			chgt = faireChargement();// Fais le chargement apres chaque tour
 										// dans les rayons
-
 			ListIterator<Rayon> itRayon = listRayons.listIterator();// Les
 																	// rayons a
 																	// parcourir
@@ -46,18 +59,19 @@ public class ChefRayon extends Thread {
 				r = itRayon.next();
 				int id = r.getid();// Id du rayon courant
 				int prod = chgt.get(id);
-				System.out.println("Cht Chef rayon avt mise en rayon id " + id
-						+ "= " + chgt.toString());
+				System.out
+						.println("Chargement Chef rayon avant mise en rayon id "
+								+ id + "= " + chgt.toString());
 				prod = r.miseEnRayon(prod);// On recharge le rayon
 				chgt.put(id, prod);// Mise a jour du chargement
 			}
-			attendre(200);// Retour � l'entrepot
+			attendre(200);// Retour a l'entrepot
 		}
 	}
 
 	private void attendre(long tps) {
 		try {
-			Thread.sleep(tps); // Faire le plein si plus de chargement
+			Thread.sleep(tps);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -4,8 +4,8 @@ import java.util.List;
 public class Supermarche {
 
 	/**
-	 * NB ELEM PAR CHGT nombre dâ€™exemplaires de chaque article que le chef de
-	 * rayon peut transporter dans sa tourn Ì�ee de remplissage des rayons
+	 * NB ELEM PAR CHGT nombre d'exemplaires de chaque article que le chef de
+	 * rayon peut transporter dans sa tournée de remplissage des rayons
 	 */
 	static final int NB_ELEM_PAR_CHGT = 5;
 	/**
@@ -14,10 +14,9 @@ public class Supermarche {
 	 */
 	static final int RAYON_STOCK_INIT = 10;
 	/**
-	 * RAYON STOCK MAX : nombre maximum dâ€™exemplaires dâ€™un produit dans un
-	 * rayon ; â€“ * Supermarche.TPS* : les temps, en ms, des diverses op
-	 * Ì�erations d Ì�ecrites dans le sujet pour lesquelles le temps nâ€™est pas
-	 * n Ì�eglig Ì�e
+	 * RAYON STOCK MAX : nombre maximum d'exemplaires d'un produit dans un rayon
+	 * ; â€“ * Supermarche.TPS* : les temps, en ms, des diverses operations
+	 * decrites dans le sujet pour lesquelles le temps neest pas negligee
 	 */
 	static final int RAYON_STOCK_MAX = 10;
 
@@ -50,8 +49,6 @@ public class Supermarche {
 	 */
 	static final int NB_CLIENT = 5;// NB_CHARIOTS * 2;
 
-	static boolean presence = true;
-
 	/**
 	 * @param args
 	 */
@@ -73,21 +70,21 @@ public class Supermarche {
 			clients.add(new Client(i, fileChariot, listRayon, caisse));// Creation
 																		// des
 																		// clients
-			System.out.println(clients.get(i).getListeCourse().toString());
+			System.out.println("Liste des courses du client "
+					+ clients.get(i).getId() + " "
+					+ clients.get(i).getListeCourse().toString());
 			clients.get(i).start();
 		}
 
 		for (int i = 0; i < NB_CLIENT; i++) {
 			try {
-				clients.get(i).join();
+				clients.get(i).join();// Les thread client se rejoignent
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 
 		}
 		System.out.println("Nombre chariot final" + fileChariot.getNb());
-		presence = false;
 	}
 
 }

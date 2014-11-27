@@ -45,7 +45,7 @@ public class Client extends Thread {
 		System.out.println("Client n" + id + " part faire les courses.");
 		fileChariots.prendreChariot();// Prend un charriot
 
-		faireCourses(listRayon);// faire le course
+		faireCourses(listRayon);// faire les courses
 
 		passageEnCaisse();// Passage a la caisse
 
@@ -67,7 +67,8 @@ public class Client extends Thread {
 			System.out.println("Client " + id + " est dans le rayon"
 					+ rayon.getid() + ". Il a " + nbArt + " art a prendre");
 			for (int i = 0; i < nbArt; i++) {
-				rayon.priseArticle();
+				System.out.println(" Le client n"+id+" est en train de: ");
+				rayon.priseArticle();//tentative de prise d'article
 			}
 		}
 	}

@@ -1,17 +1,22 @@
 public class FileChariots {
 
+	/**
+	 * Nombre de chariot de la file
+	 */
 	private int nb;
 
 	public FileChariots(int nb) {
 		this.nb = nb;
 	}
 
+	/**
+	 * Prise de chariot
+	 */
 	public synchronized void prendreChariot() {
 		if (nb == 0) {
 			try {
-				wait();
+				wait();// Attente si pas suffisament de chariot disponible
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -19,6 +24,9 @@ public class FileChariots {
 		nb--;
 	}
 
+	/**
+	 * Remettre un chariot dans la file, prévient les thread en attente
+	 */
 	public synchronized void remettreChariot() {
 		System.out.println("Remise chariot");
 		nb++;

@@ -78,8 +78,7 @@ public class Caisse {
 	}
 
 	/**
-	 * Prendre un produit sur le tapis Bloque le thread si le tapis est vide.
-	 * 
+	 * Prendre un produit sur le tapis Bloque le thread si le tapis est vide.	 * 
 	 * @return id du produit pris
 	 */
 	public synchronized int prendre() {
