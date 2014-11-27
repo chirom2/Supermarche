@@ -18,7 +18,6 @@ public class ChefRayon extends Thread {
 		this.MaxChgt = MaxChgt;
 		this.chgt = new HashMap<Integer,Integer>();
 		this.setDaemon(true);
-
 	}
 
 	private HashMap<Integer, Integer> faireChargement(){			
@@ -47,7 +46,7 @@ public class ChefRayon extends Thread {
 				prod = r.miseEnRayon(prod);//On recharge le rayon
 				chgt.put(id, prod);//Mise a jour du chargement
 			}	
-			attendre(200);//Retour à l'entrepot	
+			attendre(200);//Retour ï¿½ l'entrepot	
 		}
 	}
 	

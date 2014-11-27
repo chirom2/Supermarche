@@ -16,18 +16,22 @@ public class Client extends Thread {
 	 * Nombre d'article maximum sur la liste d'un client
 	 */
 
+	private Caisse caisse;
+
 	private FileChariots fileChariots;
 	private List<Rayon> listRayon;
-	
 	private static final int NB_MAX_ART = 6;
-		
-	public Client(int id, FileChariots fileChariots, List<Rayon> listRayon) {
+
+	public Client(int id, FileChariots fileChariots, List<Rayon> listRayon,
+			Caisse caisse) {
 		this.id = id;
 		this.fileChariots = fileChariots;
 		this.listRayon = listRayon;
+		this.caisse = caisse;
 		Random rand = new Random();
 		this.listeCourse = new HashMap<Integer, Integer>();
-		for (int i = 0; i < listRayon.size(); i++) {// Generation aleatoire liste de course
+		for (int i = 0; i < listRayon.size(); i++) {// Generation aleatoire
+													// liste de course
 			int nbAleatoire = rand.nextInt(NB_MAX_ART * 2);
 			listeCourse.put(i, nbAleatoire);
 		}
@@ -38,39 +42,75 @@ public class Client extends Thread {
 	 */
 	@Override
 	public void run() {
-		System.out.println("Client n" + id + ".");		
-		fileChariots.prendreChariot();// Prend un charriot	
-		int nbArt=0;		
-		for(int j=0; j<5; j++){
-			System.out.println("Client ID"+getIdClient()+" Key"+j);
-			if(j < listeCourse.size()){
-				nbArt=listeCourse.get(j);
-				Rayon rayon = listRayon.get(j);
-				System.out.println("Client "+id+" dans Rayon"+rayon.getid()+" "+nbArt+" art a prendre");
-				if(nbArt != 0){
-					for(int i=0; i<nbArt; i++){
-						rayon.priseArticle();
-					}
-				}
-			}			
-		}
-		// TODO Passe a la caisse
-		
+		System.out.println("Client n" + id + " part faire les courses.");
+		fileChariots.prendreChariot();// Prend un charriot
+
+		faireCourses(listeCourse, listRayon);// faire le course
+
+		passageEnCaisse();// Passage a la caisse
+
 		fileChariots.remettreChariot();// Restitue le chariot
-		System.out.println("Client n" + id + " Fin des courses");
+		System.out.println("Client n" + id + " a termier ses courses.");
 	}
+
 	/**
-	private void attendre(long tps){
+	 * Faire les course (prise d'article dans les differents rayons en fonction
+	 * d'un liste de course)
+	 */
+	private void faireCourses(HashMap<Integer, Integer> listeCourse,
+			List<Rayon> listRayon) {
+		int nbArt = 0;
+		for (int j = 0; j < listRayon.size(); j++) {
+			System.out
+					.println("Client ID" + getIdClient() + " dans rayon " + j);
+			nbArt = listeCourse.get(j);
+			Rayon rayon = listRayon.get(j);
+			System.out.println("Client " + id + " est dans le rayon"
+					+ rayon.getid() + ". Il a " + nbArt + " art a prendre");
+			for (int i = 0; i < nbArt; i++) {
+				rayon.priseArticle();
+			}
+		}
+	}
+
+	/**
+	 * Effectue le passage en caisse du client
+	 * 
+	 * @param listeCourse
+	 */
+	private void passageEnCaisse() {
+		// Attendre que la caisse soit libre
+		Employe employe = caisse.passerEnCaisse();
+
+		// Depot des produits
+		for (int i = 0; i < listeCourse.size(); i++) {
+			int nbArti = listeCourse.get(i);
+			for (int j = 0; j < nbArti; j++) {
+				caisse.deposer(i);
+				try {
+					Thread.sleep(20);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		// Marqueur suivant
+		caisse.deposer(Caisse.MARQUEUR_CLIENT_SUIVANT);
+
+		// Attendre que l'employe ait fini de passer les produits
 		try {
-			Thread.sleep((tps));
+			employe.join();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-	}*/
 
-	
+		// Effectuer le réglement
+		employe.effectuerReglement();
+
+		// Libérer la caisse pour le prochain client
+		caisse.liberer();
+	}
+
 	public int getIdClient() {
 		return this.id;
 	}

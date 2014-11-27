@@ -43,14 +43,14 @@ public class Supermarche {
 	/**
 	 * NB_RAYON : nombre maximum de rayon dans le supermarche
 	 */
-	static final int NB_RAYON = 5;
+	static final int NB_RAYON = 4;
 	
 	/**
 	 * Nombre de client présent dans le supermarché
 	 */
-	static final int NB_CLIENT = NB_CHARIOTS * 2;
+	static final int NB_CLIENT = 5;//NB_CHARIOTS * 2;
 
-	
+	static boolean presence = true;
 	
 	
 	
@@ -61,14 +61,16 @@ public class Supermarche {
 		// TODO Auto-generated method stub
 		FileChariots fileChariot = new FileChariots(NB_CHARIOTS);//Initialisation chariots
 		List<Rayon> listRayon = new ArrayList<Rayon>();
+		
 		for(int i=0; i < NB_RAYON; i++){
 			listRayon.add(new Rayon(i, RAYON_STOCK_INIT));//Initialisation rayon
 		}		
+		Caisse caisse = new Caisse();
 		ChefRayon chefRayon = new ChefRayon(listRayon, NB_ELEM_PAR_CHGT);
 		chefRayon.start();	
 		List<Client> clients = new ArrayList<Client>();
 		for (int i = 0; i < NB_CLIENT; i++) {
-			clients.add(new Client(i, fileChariot,listRayon));//Creation des clients
+			clients.add(new Client(i, fileChariot,listRayon, caisse));//Creation des clients
 			System.out.println(clients.get(i).getListeCourse().toString());
 			clients.get(i).start();
 		}
@@ -82,8 +84,10 @@ public class Supermarche {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			
 		}
 		System.out.println("Nombre chariot final" + fileChariot.getNb());
+		presence = false;
 	}
 
 }
