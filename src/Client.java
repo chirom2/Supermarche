@@ -45,7 +45,7 @@ public class Client extends Thread {
 		System.out.println("Client n" + id + " part faire les courses.");
 		fileChariots.prendreChariot();// Prend un charriot
 
-		faireCourses(listeCourse, listRayon);// faire le course
+		faireCourses(listRayon);// faire le course
 
 		passageEnCaisse();// Passage a la caisse
 
@@ -57,8 +57,7 @@ public class Client extends Thread {
 	 * Faire les course (prise d'article dans les differents rayons en fonction
 	 * d'un liste de course)
 	 */
-	private void faireCourses(HashMap<Integer, Integer> listeCourse,
-			List<Rayon> listRayon) {
+	private void faireCourses(List<Rayon> listRayon) {
 		int nbArt = 0;
 		for (int j = 0; j < listRayon.size(); j++) {
 			System.out
@@ -75,8 +74,6 @@ public class Client extends Thread {
 
 	/**
 	 * Effectue le passage en caisse du client
-	 * 
-	 * @param listeCourse
 	 */
 	private void passageEnCaisse() {
 		// Attendre que la caisse soit libre
@@ -86,6 +83,8 @@ public class Client extends Thread {
 		for (int i = 0; i < listeCourse.size(); i++) {
 			int nbArti = listeCourse.get(i);
 			for (int j = 0; j < nbArti; j++) {
+				System.out.println("CLIENT " + getIdClient()
+						+ " : dépôt produit d'id " + i);
 				caisse.deposer(i);
 				try {
 					Thread.sleep(20);
@@ -95,20 +94,30 @@ public class Client extends Thread {
 			}
 		}
 		// Marqueur suivant
+		System.out.println("CLIENT " + getIdClient()
+				+ " : dépôt marqueur CLIENT_SUIVANT");
 		caisse.deposer(Caisse.MARQUEUR_CLIENT_SUIVANT);
 
+		System.out.println("CLIENT " + getIdClient()
+				+ " : attente de l'employé");
 		// Attendre que l'employe ait fini de passer les produits
 		try {
 			employe.join();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+		System.out.println("CLIENT " + getIdClient()
+				+ " : synchronisation avec employé OK");
 
 		// Effectuer le réglement
 		employe.effectuerReglement();
+		System.out.println("CLIENT " + getIdClient()
+				+ " : paiement effectué");
 
 		// Libérer la caisse pour le prochain client
 		caisse.liberer();
+		System.out.println("CLIENT " + getIdClient()
+				+ " : caisse libérée");
 	}
 
 	public int getIdClient() {
